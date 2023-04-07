@@ -427,6 +427,7 @@ Open.TextSize = 14.000
 Open.TextWrapped = true
 Open.MouseButton1Down:Connect(function()
 	Menu.Visible = true
+	Open.Visible = false
 end)
 
 UICorner_4.Parent = Open
