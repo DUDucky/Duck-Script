@@ -265,8 +265,7 @@ Game3.TextScaled = true
 Game3.TextSize = 14.000
 Game3.TextWrapped = true
 Game3.MouseButton1Down:Connect(function()
-	--lumber
-        loadstring(game:HttpGet('https://pastebin.com/raw/p7pywf6v%27))()
+loadstring(game:HttpGet('https://pastebin.com/raw/p7pywf6v%27))()
 end)
 
 Game4.Name = "Game4"
