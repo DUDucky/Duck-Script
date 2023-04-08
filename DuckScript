@@ -259,11 +259,15 @@ Game3.BorderSizePixel = 0
 Game3.Position = UDim2.new(0.128012046, 0, 0.669030726, 0)
 Game3.Size = UDim2.new(0.30120483, 0, 0.118203312, 0)
 Game3.Font = Enum.Font.SourceSansBold
-Game3.Text = "Coming Soon"
+Game3.Text = "Lumber Tycoon"
 Game3.TextColor3 = Color3.fromRGB(255, 255, 255)
 Game3.TextScaled = true
 Game3.TextSize = 14.000
 Game3.TextWrapped = true
+Game3.MouseButton1Down:Connect(function()
+	--lumber
+        loadstring(game:HttpGet('https://pastebin.com/raw/p7pywf6v%27))()
+end)
 
 Game4.Name = "Game4"
 Game4.Parent = GameMenu
